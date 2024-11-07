@@ -14,5 +14,6 @@ document.addEventListener("DOMContentLoaded", () => {
     changeColorBtn.addEventListener("click", () => {
         const newColor = getRandomColor();
         colorBox.style.backgroundColor = newColor;
+        changeColorBtn.style.backgroundColor = newColor;
     });
 });
